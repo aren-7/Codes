@@ -1,3 +1,7 @@
+// In Fenwick Tree we can find sum between given range with a condition that the given array may gets updated in any middle process with range queries given.
+// We cannot use prefix sum because array is prone to get updated in the middle. Thus a precomputed fixed prefix array won't work.
+// Using fenwick tree we can answer every query in O(logn) time complexity.
+
 #include<bits/stdc++.h>
 using namespace std;
 int fen[100005],a[100005];
